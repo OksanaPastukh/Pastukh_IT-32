@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Art Gallery</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<video autoplay loop muted plays-inline class="back-video">
+			<source src="images/back.mp4" type="video/mp4">
+		</video>
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#monet">ARTISTS</a></li>
+					<li><a href="#events">EXHIBITIONS</a></li>
+					<li><a href="#contact">CONTACTS</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="name-box">
+			<h1><img src="images/logo.png">rt</h1>
+			<h2>Gallery</h2>
+		</div>
+		<div class="box">
+			<a href="#ticket" class="hero-btn">Buy Tickets</a>
+		</div>
+		</div>
+	</section>
+	<!-------about----------------------->
+	<section id ="about">
+		<div class="about-page">
+		<div class="header-name">
+			<h1>About-Gallery</h1>
+			<hr>
+		</div>
+		<div class="text-box">
+			<p>Art galleries play a significant role in the art industry. They are the link between artists and collectors, scouting for new talent and continuing to showcase the best artists with their exhibition program.
+			</p>
+			<br>
+			<br>
+			<p>The Art Gallery, founded as a gift to the nation, serves as a center of visual art, education, and culture.The primary purpose of an art gallery is to nurture visual artists, promote their work, and expose them to the public, collectors, media, and cultural institutions</p>
+		</div>
+	</section>
+	<!------------artists-monet---------->
+	<section id="monet">
+		<div class="claude-monet">
+		<div class="header-text">
+			<h1>The Most Popular Artists In Our Gallery</h1>
+			<hr>
+		</div>
+		<div class="text-monet">
+			<h2 class="hr-line">Claude Monet</h2>
+			<p>Oscar-Claude Monet was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.During his long career, he was the most consistent and prolific practitioner of impressionism's philosophy of expressing one's perceptions before nature, especially as applied to plein air (outdoor) landscape painting. </p>
+		</div>
+		<div class="row">
+			<div class="paintings-col">
+				<img src="images/flower.jpg">
+				<h3>The Artist's Garden at Giverny</h3>
+			</div>
+			<div class="paintings-col">
+				<img src="images/mountain.png">
+				<h3>The cliffs of the Porte d'Aval</h3>
+			</div>
+			<div class="paintings-col">
+				<img src="images/bridge.jpg">
+				<h3>Water Lilies and the Japanese Bridge</h3>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!------------artists-gogh---------->
+	<section class="artists-gogh">
+		<div class="text-gogh">
+			<h2 class="hr-line">Vincent van Gogh</h2>
+			<p>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who posthumously became one of the most famous and influential figures in the history of Western art. In a decade, he created about 2,100 artworks, including around 860 oil paintings, most of which date from the last two years of his life.They include landscapes, still lifes, portraits, and self-portraits characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art.</p>
+		</div>
+		<div class="row">
+			<div class="paintings-col">
+				<img src="images/blossom2.jpg">
+				<h3>Almond Blossoms</h3>
+			</div>
+			<div class="paintings-col">
+				<img src="images/night.jpg">
+				<h3>The Starry Night</h3>
+			</div>
+			<div class="paintings-col">
+				<img src="images/room.jpg">
+				<h3>La Chambre à Arles</h3>
+			</div>
+		</div>
+	</section>
+	<!------------artists-Picasso---------->
+	<section class="artists-picasso">
+		<div class="text-picasso">
+			<h2 class="hr-line">Pablo Ruiz Picasso</h2>
+			<p>Pablo Ruiz Picasso was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France. Regarded as one of the most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture, the co-invention of collage, and for the wide variety of styles that he helped develop and explore.</p>
+		</div>
+		<div class="row">
+			<div class="paintings-col-picasso">
+				<img src="images/women.jpg">
+				<h3>Femme au café</h3>
+			</div>
+			<div class="paintings-col-picasso">
+				<img src="images/portrait.jpg">
+				<h3>Self - Portrait</h3>
+			</div>
+			<div class="paintings-col-picasso">
+				<img src="images/figure.jpg">
+				<h3>Figure dans un Fauteuil</h3>
+			</div>
+		</div>
+	</section>
+	<!------------events---------->
+	<section id="events">
+		<div class="upcoming-exhibitions">
+		<div class="header-text">
+			<h1>Upcoming Exhibitions</h1>
+			<hr>
+		</div>
+		<div class="exhibitions">
+			<h4 class="hr-line-text">September 2022</h4>
+			<div class="exhibitions-section">
+				<div class="exhibitions-text">
+					<h4>August 15 8:00 am - September 21 5:00 pm</h4>
+			        <h2>“Country Road in Provence by Night”</h2>
+			        <h3>Lviv,  Stefanyka St. 3</h3>
+			        <p>The Immersive Experience in London is a 360º digital art exhibit that invites you to step into the universe of the Dutch genius, Vincent van Gogh
+				</div>
+				<img src="images/monuments.jpg">
+				</p>
+			</div>
+		</div>
+    <div class="exhibitions">
+			<h4 class="hr-line-text">October 2022</h4>
+			<div class="exhibitions-section">
+				<div class="exhibitions-text">
+					<h4>October  8, 2022  - November 11, 2023</h4>
+			        <h2>“Jean-Francois De Troy”</h2>
+			        <h3>Lviv,  Stefanyka St. 3</h3>
+			        <p> Museum exhibition Troy: myth and reality, an exciting exhibition that tells the story of the ancient city
+				</div>
+				<img src="images/family.png">
+				</p>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!------------visitor-info---------->
+	<section class="visitor">
+		<h1>Visitor Info</h1>
+		<hr>
+		<div class="info">
+			<h2>Admission Prices</h2>
+			<hr>
+			<table>
+				<tr>
+					<td>Adults</td>
+					<td>₴ 100.00</td>
+				</tr>
+				<tr>
+					<td>Groups ( 10 max )</td>
+					<td>₴ 80.00</td>
+				</tr>
+				<tr>
+					<td>Students</td>
+					<td>₴ 60.00</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<br>
+		<div class="info">
+			<h2>Opening Hours</h2>
+			<hr>
+			<table>
+				<tr>
+					<td>Tuesday - Saturday</td>
+					<td>10 a.m. - 5 p.m.</td>
+				</tr>
+				<tr>
+					<td>Sunday</td>
+					<td>11 a.m. - 5 p.m.</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+
+
+	<!------------tickets---------->
+	<section id="ticket">
+		<div class="tickets">
+		<div class="header-text">
+		  <h1>Tickets</h1>
+		  <hr>
+		</div>
+		<div class="wrapper">
+			<div class="single-price">
+				<h1>Basic</h1>
+				<div class="price">
+					<h2>₴ 100</h2>
+				</div>
+				<div class="deals">
+					<h4>Free entrance to the main hall</h4>
+					<h4>One free individual tour </h4>
+					<h4>One free group tour</h4>
+				</div>
+				<a href="#">BUY NOW</a>
+			</div>
+			<div class="single-price">
+				<h1>Standard</h1>
+				<div class="price">
+					<h2>₴ 150</h2>
+				</div>
+				<div class="deals">
+					<h4>Two individual tours are free</h4>
+					<h4>Free entry to most halls</h4>
+					<h4>Free group tours</h4>
+				</div>
+				<a href="#">BUY NOW</a>
+			</div>
+			<div class="single-price">
+				<h1>Premium</h1>
+				<div class="price">
+					<h2>₴ 250</h2>
+				</div>
+				<div class="deals">
+					<h4>Free individual tour to various 
+					hall</h4>
+					<h4>Free entrance to the main hall</h4>
+					<h4>Free drinks in the cafe</h4>
+				</div>
+				<a href="#">BUY NOW</a>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+		</div>
+	</section>
+
+
+
+
+
+
+
+<!------------contact-info---------->
+<section id="contact">
+	<div class="contact-info">
+	<form action="">
+		<div class="title">
+			<h2>Contact Us</h2>
+		</div>
+		<div class="half">
+			<div class="item">
+				<label for="name">Name</label>
+				<input type="text" id="name">
+			</div>
+			<div class="item">
+				<label for="email">Email</label>
+				<input type="text" id="email">
+			</div>
+		</div>
+		<div class="full">
+			<label for="message">Message</label>
+			<textarea name="" id="message"></textarea>
+		</div>
+		<div class="action">
+			<input type="submit" value = "Send Message">
+		</div>
+	</form>
+	<div class="icons">
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-telegram"></i>
+		<i class="fa fa-map-marker"></i>
+	</div>
+	</div>
+</section>
+
+
+
+
+<!-------JavaScript for Toogle Menu--------->
+
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
